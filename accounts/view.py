@@ -146,6 +146,16 @@ def viewArticles(request):
    cache.set('my_cache', 'my first cache app', 5*60)
    return HttpResponse(str(up.user)+'          '+str(up.favorite_animal))
 
+
 # test django ajax
 def test_django_ajax(request):
     return render(request, 'accounts/dreamreal.html')
+
+
+def test_branch(request):
+    pass
+
+
+
+def test_branch(request):
+    pass
