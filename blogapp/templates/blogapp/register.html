@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-1.4.1.js" %}"></script>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-cookie.js" %}"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+{#            $("#btnsummit").click(function(){#}
+{#                name=$("#name").value;#}
+{#                alert(name);#}
+{#            });#}
+        });
+    </script>
+</head>
+<body>
+
+
+
+<form method="POST" action="http://localhost:8000/polls/register/">
+    {% csrf_token %}
+    用户名：<input type="text" id="name" name='name' vlaue=""/><br/>
+    密码：<input type="password" id="pwd" name='pwd' vlaue=""/><br/>
+    手机号码：<input type="text" id="phoneNumber" name='phoneNumber' vlaue=""/><br/>
+<input type="button" id="btnsummit" value="注册"/>
+    <input name='blx2' value="blx1">
+<input type='submit' id="btnsummit" value="注册"/><br/>
+{#</form>#}
+{#<div style="width:100px;height:200px;border:1px solid red;clear: both;">#}
+{#    {% include 'blogapp/templates123/blogapp/include.html' %}#}
+{#</div>#}
+
+{#{% include "order/partical/edit_fields.html" %}#}
+<input type="checkbox" checked="checked" value="blx" name="blx"/>
+</form>
+
+<form action="">
+     name:<input id="name" type="text" value="name" name = 'name'  >
+    btn_pwd:<input id="btn_pwd" type="text" value="pwd"  name = "name" >
+
+</form>
+
+
+<div class="tag">
+    <label><strong class="color1">主题分类</strong></label>
+    <label style="display:none" ><input name="" type="radio" value="" /><span style="font-size:12px;">显示数量</span></label>
+</div>
+<form method="post" name="sousuo2" >
+    {% csrf_token %}
+     <div class="pGroup">
+                <p style="cursor:default">
+                    <input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="１" /><label>其他</label>
+                    <input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="２" /><label>其他</label>
+                    <input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="３" /><label>其他</label>
+                    <input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="４" /><label>其他</label>
+                    <input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="５" /><label>其他</label>
+                </p>
+     </div>
+      <input name="keyword" type="text" id="txt2" style="display:none;">
+      <div class="btn_comfirm"><input name="123" type="button" value=""  id="btn_comfirm" ></div>
+</form>
+{#<img src="{% static "img/12.jpg" %}" alt="Logo" />#}
+{#<img src="{% static 'img/12.jpg' %}" alt="title"/>#}
+
+
+<form method="post" action="http://localhost:8000/polls/returncookie/">
+    {{ name }}
+    <input name="keyword" type="button" id="txt2"  value="把cookie传输到后台，刷新后（重新加载页面）在显示出来">
+</form>
+
+
+{#<img src="" id="img1"/>#}
+
+
+<script type="text/javascript">
+//页面取到选中的值
+$(document).ready(function(){
+
+     $("#btn_comfirm").click(function () {
+
+         var idlist=[];
+        $("input[name='ztfl']:checkbox").each(function(){
+{#            alert($(this).attr("checked"));#}
+        var ids = $(this).attr('value');
+        if ($(this).attr("checked") == 'checked')
+        {
+            idlist.add(ids);
+         }
+         else
+        {
+            idlist.remove(ids);
+         }
+
+        });
+       alert(idlist);
+
+    });
+
+
+
+
+    $('.pGroup lastList input').click(function(){
+
+       if ($(this).attr('checked') == "checked") {
+            $(".pGroup lastList input").each(function () {
+                $(this).attr('checked', true);
+            });
+        }
+        else {
+            $(".pGroup lastList input").each(function () {
+                $(this).attr('checked', false);
+            });
+        }
+     });
+})
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

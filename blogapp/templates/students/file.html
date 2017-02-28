@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>hello world</h1>
+
+{#<form method="post" action="/students/file/",enctype="multipart/form-data">#}
+{#    {% csrf_token %}#}
+{#    {{ fileform.as_p }}#}
+{#    <input type="submit" value="ok" id="btn_sumit"/>#}
+{#</form>#}
+
+
+
+
+<h1>-----------------------------------------------------------------------</h1>
+
+<form id="attach_form"  action="/students/file/" method="post" enctype="multipart/form-data">
+{% csrf_token %}
+      <input id="attach_form_attach" type="file" name="ExcelFile" required=""/>
+
+
+      <input id="attach_form_submit" type="submit" value="Upload" class="btn btn-custom" />
+          <a href="javascript:void(0);" class="file-cancel cancel">Cancel</a>
+
+</form>
+
+
+{% for user in usergroup.users %}
+    {{ user.name}}
+{% endfor %}
+
+
+
+
+
+
+</body>
+</html>

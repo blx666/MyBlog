@@ -1,0 +1,29 @@
+
+
+
+{#<h1>hell world!!</h1>#}
+
+
+{% if objects.paginator.num_pages > 1 %}
+<nav class="text-center">
+  <ul class="pagination pagination-lg">
+    {% if objects.has_previous %}
+    <li>
+      <a href="{% add_get page=objects.previous_page_number %}" data-page='{{objects.previous_page_number}}'>&laquo;</a>
+    </li>
+    {% endif %}
+
+    {% for page_number in objects.paginator.num_pages|page_range:objects.number %}
+      {% ifequal page_number  objects.number %}
+        <li class="disabled"><a href="javascript:;" data-page="{{page_number}}">{{ page_number }}</a>
+      {% else %}
+        <li><a href="{% add_get page=page_number %}" data-page="{{page_number}}">{{ page_number }}</a></li>
+      {% endifequal %}
+    {% endfor %}
+
+    {% if objects.has_next %}
+      <li><a href="{% add_get page=objects.next_page_number %}" data-page="{{objects.next_page_number}}">&raquo;</a></li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}

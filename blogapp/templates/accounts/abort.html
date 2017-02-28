@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% load staticfiles %}
+<script type="text/javascript" src="{% static "js/base.js" %}"></script>
+
+{% load staticfiles %}
+<script type="text/javascript" src="{% static "js/jquery-1.4.1.js" %}"></script>
+
+
+<script>
+var xhr = $.ajax({type:'POST',
+    url:'b.php',
+    data:'',
+    success:function(){
+        alert('ok');
+    }
+})
+alert(xhr);
+
+console.log(xhr);
+</script>
+
+<button id="song">abort</button>
+<script>
+$(function(){
+    $("#song").click(function(){
+        alert('click');
+        xhr.abort();
+    })
+})
+</script>
+
+<div id="sendemailform">
+    <form action="/portal/eamil/" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="发送邮箱" id="btn"/>
+    </form>
+</div>
+
+
+
+
+
+
+</body>
+</html>

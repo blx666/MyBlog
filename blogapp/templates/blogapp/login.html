@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-1.4.1.js" %}"></script>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-cookie.js" %}"></script>
+    <script type="text/javascript">
+    function fun(){
+    var checkboxes = document.getElementsByName("ztfl");
+    var str = [];
+    for(i=0;i<checkboxes.length;i++){
+        if(checkboxes[i].checked){
+            str.push(checkboxes[i].value);
+        }
+    }
+    document.cookie  = 'value='+str;
+}
+
+
+function getCookie(){
+　　　　if (document.cookie.length>0){　
+        c_start=document.cookie.indexOf("value=");
+
+        c_end=document.cookie.indexOf(";",c_start);
+        var list = unescape(document.cookie.substring(c_start,c_end));
+        var valuestring = list.split("=")[1];
+        var valuelist = valuestring.split(",");
+        var a = "3";
+
+        for (var i = 0;i<valuelist.length;i++)
+        {
+            if (valuelist[i] ==  a)
+            {
+                alert("zai");
+            }
+            continue;
+        }
+
+{#　　　　　　c_start=document.cookie.indexOf(value + "=")　　　#}
+{#　　　　　　if (c_start!=-1){#}
+{#　　　　　　　　c_start=c_start + c_name.length+1　　#}
+{#　　　　　　　　c_end=document.cookie.indexOf(",",c_start)　　#}
+{#　　　　　　　　if (c_end==-1) c_end=document.cookie.length　　#}
+{#　　　　　　　　return unescape(document.cookie.substring(c_start,c_end))　　{#  通过substring()得到了值。想了解unescape()得先知道escape()是做什么的，都是很重要的基础，想了解的可以搜索下，在文章结尾处也会进行讲解cookie编码细节#}
+{#　　　　　　}#}
+　　　　}
+　　　
+　　}　
+
+    </script>
+</head>
+
+<body>
+<form method="POST" action="http://localhost:8000/polls/loginhandler/">
+    {% csrf_token %}
+    用户名：<input type="text" id="name" name='name' vlaue=""/><br/>
+    密码：<input type="password" id="pwd" name='pwd' vlaue=""/><br/>
+{#<input type="button" id="btnsummit" value="注册"/>#}
+{#    <input name='blx2' value="blx1">#}
+<input type='submit' id="btnsummit" value="登陆"/><br/>
+
+<-- cheakbox --!>
+<input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="１" onclick="fun()"/><label>其他</label>
+<input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="２" onclick="fun()"/><label>其他</label>
+<input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="３" onclick="fun()"/><label>其他</label>
+<input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="４" onclick="fun()"/><label>其他</label>
+<input name="ztfl" style="margin-left: 10px;cursor:pointer" type="checkbox" value="５" onclick="fun()"/><label>其他</label>
+<input type="button" value="添加数据"　id="btnadd" onclick="getCookie()">
+
+<div >
+
+
+</div>
+
+
+</form>
+<label for="today-time">今天的时间是：</label>{{ today_time|date:'Y-M-D h:m:s'}}<br/>
+<label for="deault" >设置默认值</label> {{ default|default_if_none:'123' }}
+<p></p>
+<p></p><p></p>
+<p></p></br>
+<--渲染生成的用户登陆--!>
+{{ login_form }}
+
+<img src="{% static 'img/12.jpg' %}" alt="logo"/>
+</body>
+</html>

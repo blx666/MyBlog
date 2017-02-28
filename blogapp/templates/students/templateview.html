@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>this a status html</h1>
+
+
+{% for instance in latest_articles %}
+    {{ instance.name }} {{ instance.get_user_type_display }} </p>
+
+{% endfor %}
+</body>
+</html>

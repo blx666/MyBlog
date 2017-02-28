@@ -1,0 +1,28 @@
+{#{% load dajaxice_templatetags %}#}
+{#{% dajaxice_js_import %}#}
+{% load static %}
+{% load dajaxice_templatetags %}
+<html>
+  <head>
+    <title>My base template</title>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-1.4.1.js" %}"></script>
+    <script type="text/javascript">
+
+        function my_callback(data){
+            Dajax.process(data);
+            /* Your js code */
+        }
+
+    </script>
+
+
+
+
+  </head>
+  <body>
+    <button onclick="MyBlog.accounts.sayhello(my_callback);">Click here!</button>
+
+  </body>
+
+</html>

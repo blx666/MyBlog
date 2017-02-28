@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load staticfiles %}
+    <script type="text/javascript" src="{% static "js/jquery-1.4.1.js" %}"></script>
+
+
+    {% load staticfiles %}
+    <link href="{% static "css/bootstrap.min.css" %}" type="text/css"/>
+
+
+    <script type="text/javascript">
+        $(function(){
+{#            $("input[id^='btncomment']").click(function(){#}
+{#                that = $(this);#}
+{#                index = that.context.name#}
+{#                $("#conmment"+index).show()#}
+{#                if ($(this).val() == '评论')#}
+{#                {#}
+{#                    $(this).val("发表评论");#}
+{##}
+{#                }#}
+{#                else{#}
+{#                    $("#conmment"+index).hide()#}
+{#                    $(this).val('评论')#}
+
+
+
+{#                    commenttext = $("#conmment"+index).val;#}
+
+
+{#                $.ajax({#}
+{#                    type:"POST",#}
+{#                    data:{"comment":commenttext,'blogId':index},#}
+{#                    url:"http://localhost:8000/polls/publishcomment/",#}
+{#                    datatype:"Json",#}
+{#                    beforeSend: function(xhr, settings){#}
+{##}
+{#          xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));              //request头需要添加csrftoken,告诉服务器，我是个好yin哪，我是正常访问者#}
+{#      },#}
+{#                     success:function(result){#}
+{#                            alert(result);#}
+{#                    },#}
+{#                })#}
+{##}
+
+{#                }#}
+
+{#            })#}
+        })
+    </script>
+</head>
+<body>
+<h1>博客主题</h1>
+{#{% if blogModelList %}#}
+{#    <ul id="blogbox" class="col-lg-12">#}
+{#    {% for blog in blogModelList.object_list  %}#}
+{##}
+{#        <li class="col-lg-6">#}
+{#            主题：{{ blog.content }}<br/>#}
+{#            发布时间{{ blog.time }}<br/>#}
+{#            <ul style="list-style:none;display: block">#}
+{#                {%  for comment in blog.comment_set.all  %}#}
+{#                    <li >#}
+{#                        pinlun :{{ comment.content }}  &nbsp;&nbsp;&nbsp;&nbsp; qingpunshijian :{{ comment.time }}#}
+{#                    </li>#}
+{#                {% endfor  %}#}
+{#            </ul>#}
+{#            <form method="POST" action="http://localhost:8000/polls/publishcomment/">#}
+{#                {% csrf_token %}#}
+{#                <input type="text" id="conmment{{ blog.id }}" name="comment" value="" ><br/>#}
+{##}
+{#                <input type="text"  name="blogid" value="{{ blog.id }}" style="display: none"><br/>#}
+{##}
+{#                <input type="submit" id="btncomment{{ blog.id }}"  name="{{ blog.id }}" value="评论"  >#}
+{#            </form>#}
+{#            <span>----------------------------------------------------------------------------</span>#}
+{#        </li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+{#{% else %}#}
+{#    <p>No blog are available.</p>#}
+{#{% endif %}#}
+{##}
+
+
+
+
+
+
+
+
+
+
+{#分页开始#}
+
+
+{% for blog in blogs %}
+     {{ blog.name }}
+     {{ blog.phone }}
+ {% endfor %}
+
+<br/>
+{% if blogs.has_previous %}
+        <a class='paginator' title='上一页' href='?page={{ blogs.previous_page_number }}'><span>&lt;&lt;</span></a>
+ {% endif %}
+ {% for page in blogs.paginator.page_range %}
+     {% if page == blogs.number %}
+         <a class='paginator_current' title='当前页:{{ page }}'><span>{{ page }}</span></a>
+     {% else %}
+         <a class='paginator' href='{% url 'loginHandler' page %}' title='{{ page }}'><span>{{ page }}</span></a>
+{#         <a class='paginator' href='/loginHandler/?page={{ page }}' title='{{ page }}'><span>{{ page }}</span></a>#}
+     {% endif %}
+ {% endfor %}
+ {% if blogs.has_next %}
+     <a class='paginator' title='下一页' href='?page={{ blogs.next_page_number }}'><span>&gt;&gt;</span></a>
+ {% endif %}
+
+
+{#分页结束#}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{##}
+{##}
+{#<div class='col-lg-4'>#}
+{#    {% include 'blogapp/pagination.html' with objects=blogModelList %}#}
+{#</div>#}
+
+
+
+
+
+
+<h1>发表博客</h1>
+<form method="POSP" action="http://localhost:8000/polls/publishbloghandler" >
+    <input type="text" id="btn" name="blogcomment" vlaue="">
+     <input type="text" id="btn" name="userid" value={{ userid }}>
+{#    <input type="">#}
+{#    <label name="userid">{{ userid }}</label>#}
+    <input type="submit" id="btnpublish" name="publishblog" >
+
+</form>
+
+</body>
+</html>
