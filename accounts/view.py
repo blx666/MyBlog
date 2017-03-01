@@ -152,5 +152,7 @@ def test_django_ajax(request):
     return render(request, 'accounts/dreamreal.html')
 
 
-def test_test(request):
+
+def test_branch(request):
+
     pass
