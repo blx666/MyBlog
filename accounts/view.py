@@ -15,6 +15,7 @@ from django.conf import settings
 import pytz
 from django.views.decorators.cache import cache_page
 from django.core.cache import cache
+from django.contrib.auth.models import User
 
 class LoadTemp(TemplateView):
     template_name = 'accounts/abort.html'
