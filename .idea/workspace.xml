@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d9558cb5-7cc7-4ebd-96fd-1f5b493132f0" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/other/temp.py" />
+=======
+    <list default="true" id="d9558cb5-7cc7-4ebd-96fd-1f5b493132f0" name="Default" comment="Merge branch 'develop'&#10;&#10;# Conflicts:&#10;#&#9;.idea/MyBlog.iml&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MyBlog.iml" afterPath="$PROJECT_DIR$/.idea/MyBlog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/view.py" afterPath="$PROJECT_DIR$/accounts/view.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogapp/views.py" afterPath="$PROJECT_DIR$/blogapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/message/tests.py" afterPath="$PROJECT_DIR$/message/tests.py" />
+>>>>>>> master
     </list>
     <ignored path="MyBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,28 +50,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="pagination.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/pagination.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBlog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2106">
+              <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="include.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/include.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/blogapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#14#55#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/MyBlog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+              <folding>
+                <element signature="e#640#681#0" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/view.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,27 +129,79 @@
               <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="e#14#59#0" expanded="true" />
+=======
+      <file leaf-file-name="publishblog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/publishblog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2538">
+              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+              <folding>
+                <marker date="1478866386907" expanded="true" signature="365:1548" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="605:698" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="699:1528" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="888:1500" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="1139:1498" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="1205:1352" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="1353:1477" ph="{...}" />
+                <marker date="1478866386907" expanded="true" signature="1670:2832" ph="..." />
+                <marker date="1478866386907" expanded="true" signature="1762:2797" ph="..." />
+                <marker date="1478866386907" expanded="false" signature="1875:1905" ph="..." />
+                <marker date="1478866386907" expanded="true" signature="1906:2205" ph="..." />
+                <marker date="1478866386907" expanded="true" signature="1999:2149" ph="..." />
+                <marker date="1478866386907" expanded="false" signature="2061:2067" ph=" " />
+                <marker date="1478866386907" expanded="false" signature="2067:2073" ph=" " />
+                <marker date="1478866386907" expanded="false" signature="2073:2079" ph=" " />
+                <marker date="1478866386907" expanded="false" signature="2079:2085" ph=" " />
+                <marker date="1478866386907" expanded="true" signature="2295:2673" ph="..." />
+                <marker date="1478866386907" expanded="false" signature="2519:2532" ph="..." />
+                <marker date="1478866386907" expanded="true" signature="3830:3916" ph="..." />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="temp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/other/temp.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="e#20#35#0" expanded="true" />
+                <element signature="e#3762#3806#0" expanded="false" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blogapp/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <marker date="1488180908487" expanded="true" signature="426:571" ph="{...}" />
+                <marker date="1488180908487" expanded="false" signature="1082:1140" ph="..." />
+                <marker date="1488180908487" expanded="true" signature="1141:1218" ph="..." />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -193,7 +308,11 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
+<<<<<<< HEAD
       <showMembers />
+=======
+      <showMembers ProjectPane="true" />
+>>>>>>> master
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -205,6 +324,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -225,6 +345,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files" />
+        <subPane subId="Project Files" />
+        <subPane subId="Default" />
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+>>>>>>> master
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
+=======
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBlog" />
@@ -232,10 +394,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyBlog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="other" />
+>>>>>>> master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -741,6 +900,7 @@
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17521705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23430322" sideWeight="0.5153907" order="7" side_tool="true" content_ui="tabs" />
@@ -752,17 +912,56 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3441358" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17283951" sideWeight="0.62336665" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19179164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.49723756" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.116385914" sideWeight="0.50276244" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991317" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48545176" sideWeight="0.46566692" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5022971" sideWeight="0.49723756" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3441358" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.62983423" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.060185187" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5277778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.49721116" order="11" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
     </layout>
   </component>
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17283951" sideWeight="0.62336665" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> master
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -979,8 +1178,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/publishblog.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="256">
           <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
+=======
+        <state relative-caret-position="2538">
+          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+          <folding>
+            <marker date="1478866386907" expanded="true" signature="365:1548" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="605:698" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="699:1528" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="888:1500" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="1139:1498" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="1205:1352" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="1353:1477" ph="{...}" />
+            <marker date="1478866386907" expanded="true" signature="1670:2832" ph="..." />
+            <marker date="1478866386907" expanded="true" signature="1762:2797" ph="..." />
+            <marker date="1478866386907" expanded="false" signature="1875:1905" ph="..." />
+            <marker date="1478866386907" expanded="true" signature="1906:2205" ph="..." />
+            <marker date="1478866386907" expanded="true" signature="1999:2149" ph="..." />
+            <marker date="1478866386907" expanded="false" signature="2061:2067" ph=" " />
+            <marker date="1478866386907" expanded="false" signature="2067:2073" ph=" " />
+            <marker date="1478866386907" expanded="false" signature="2073:2079" ph=" " />
+            <marker date="1478866386907" expanded="false" signature="2079:2085" ph=" " />
+            <marker date="1478866386907" expanded="true" signature="2295:2673" ph="..." />
+            <marker date="1478866386907" expanded="false" signature="2519:2532" ph="..." />
+            <marker date="1478866386907" expanded="true" signature="3830:3916" ph="..." />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1018,6 +1243,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="17" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1037,6 +1266,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="169">
           <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
@@ -1047,6 +1277,11 @@
             <element signature="e#4716#4857#0" expanded="false" />
             <element signature="e#5255#5411#0" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="2106">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1075,7 +1310,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1088,8 +1326,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/templates/blogapp/register.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="62">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+        <state relative-caret-position="360">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1488180908487" expanded="true" signature="426:571" ph="{...}" />
+            <marker date="1488180908487" expanded="false" signature="1082:1140" ph="..." />
+            <marker date="1488180908487" expanded="true" signature="1141:1218" ph="..." />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1118,6 +1366,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1144,8 +1398,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyBlog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="336">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+=======
+        <state relative-caret-position="378">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#640#681#0" expanded="true" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1158,11 +1420,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="51">
           <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
           <folding>
             <element signature="e#20#35#0" expanded="false" />
             <element signature="e#3760#3804#0" expanded="false" />
+=======
+        <state relative-caret-position="-144">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#20#35#0" expanded="true" />
+            <element signature="e#3762#3806#0" expanded="false" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
@@ -1171,7 +1441,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1186,9 +1459,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="647">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#14#57#0" expanded="false" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1203,9 +1479,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#14#55#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1213,9 +1492,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#14#59#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1223,7 +1505,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
