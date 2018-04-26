@@ -1,0 +1,2 @@
+# MyBlog
+django web train
